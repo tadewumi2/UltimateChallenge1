@@ -11,7 +11,9 @@ dog_breeds = JSON.parse(response) # Convert JSON data into Ruby data.
 #	puts dog
 #end
 
-dog_breeds.each do | breeds, subbreeds |
-	puts "*#{breeds}
-				*#{subbreeds}"
+dog_breeds["message"].each do | breed, subbreeds |
+	puts "*#{breed.capitalize}"
+	subbreeds.each do |sub|
+		puts "*#{sub.capitalize}"
+	end
 end

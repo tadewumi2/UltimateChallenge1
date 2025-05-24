@@ -20,15 +20,13 @@ ghosts = [
 		:name => 'Blinky',
 		:age => 7,
 		:loves => 'ninjas', 
-		:net_worth => 18.03
-			
+		:net_worth => 18.03	
 	},
 	{ 
 		:name => 'Clyde',
 		:age => 6,
 		:loves => 'yarn', 
-		:net_worth => 0
-			
+		:net_worth => 0		
 	}
 ]
 
